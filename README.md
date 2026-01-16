@@ -1,260 +1,385 @@
-# Abed Hossain - Portfolio Website# Abed Hossain - Personal Portfolio Website
+# Abed Hossain - Portfolio Website# Abed Hossain - Portfolio Website
 
 
 
-A modern, responsive personal portfolio website showcasing my skills, projects, and contact information.A modern, responsive personal portfolio website built with HTML5, CSS3, JavaScript, PHP, and MySQL.
+A modern, responsive personal portfolio website showcasing my skills, projects, and contact information.A modern, responsive personal portfolio website showcasing my skills, projects, and contact information.
 
 
 
-## 🌐 Live Demo## 👤 About
+## 🌐 Live Demo## 🌐 Live Demo
 
 
 
-Visit the live site: [Your GitHub Pages URL]This is the professional portfolio website of **Abed Hossain**, a 22-year-old Computer Science and Engineering student at Southeast University, Bangladesh. The website showcases skills, projects, and provides a way to get in touch.
+**Visit:** [https://abed-hossain01.github.io/Portfolio_Website/](https://abed-hossain01.github.io/Portfolio_Website/)**Visit:** [https://abed-hossain01.github.io/Portfolio_Website/](https://abed-hossain01.github.io/Portfolio_Website/)
 
 
 
-## 🚀 Features## 🚀 Features
+## 👤 About Me## 👤 About Me
 
 
 
-- **Responsive Design** - Works perfectly on desktop, tablet, and mobile devices- **Responsive Design**: Fully responsive layout that works on desktop, tablet, and mobile devices
+I'm **Abed Hossain**, a 22-year-old Computer Science and Engineering student at Southeast University, Bangladesh. This portfolio showcases my skills, projects, and provides a way to connect with me.I'm **Abed Hossain**, a 22-year-old Computer Science and Engineering student at Southeast University, Bangladesh. This portfolio showcases my skills, projects, and provides a way to connect with me.
 
-- **Modern UI/UX** - Clean and professional interface with smooth animations- **Smooth Navigation**: Sticky navbar with smooth scrolling and active link highlighting
 
-- **Interactive Sections**:- **Dynamic Sections**:
 
-  - Home - Welcome section with profile  - Home with introduction and call-to-action buttons
+## ✨ Features
 
-  - About - Personal information and background  - About section with personal information and interests
+## ✨ Features
 
-  - Skills - Programming languages and technologies  - Skills showcase with animated progress bars
+- **Responsive Design** - Works perfectly on all devices (desktop, tablet, mobile)
 
-  - Projects - Showcase of completed projects  - Project portfolio with detailed cards
+- **Smooth Navigation** - Sticky navbar with smooth scrolling and active section highlighting- **Responsive Design** - Works perfectly on all devices (desktop, tablet, mobile)
 
-  - Resume - Downloadable CV  - Resume download section
+- **Interactive Sections**:- **Smooth Navigation** - Sticky navbar with smooth scrolling and active section highlighting
 
-  - Contact - Functional contact form  - Contact form with backend integration
+  - Home with introduction and call-to-action buttons- **Interactive Sections**:
 
-- **Form Handling**: Secure PHP backend with MySQL database storage
+  - About section with personal background  - Home with introduction and call-to-action buttons
 
-## 🛠️ Built With- **Modern UI**: Clean, professional design with animations and transitions
+  - Skills showcase with animated progress bars  - About section with personal background
 
-- **No Frameworks**: Built entirely with vanilla HTML, CSS, and JavaScript
+  - Project portfolio with detailed cards and hover effects  - Skills showcase with animated progress bars
+
+  - Resume download section  - Project portfolio with detailed cards and hover effects
+
+  - Contact form with email integration  - Resume download section
+
+- **Modern UI** - Clean design with smooth animations and transitions  - Contact form with email integration
+
+- **Fast Loading** - Optimized static files for quick page loads- **Modern UI** - Clean design with smooth animations and transitions
+
+- **Fast Loading** - Optimized static files for quick page loads
+
+## 🛠️ Tech Stack
+
+## 🛠️ Tech Stack
 
 - **HTML5** - Semantic markup
 
-- **CSS3** - Modern styling with CSS Grid and Flexbox## 🛠️ Tech Stack
+- **CSS3** - Modern styling with Flexbox and Grid- **HTML5** - Semantic markup
 
-- **JavaScript** - Interactive features and animations
+- **JavaScript** - Vanilla JS for interactivity (no frameworks)- **CSS3** - Modern styling with Flexbox and Grid
 
-- **FormSubmit** - Contact form handling (no backend required)### Frontend
+- **FormSubmit** - Contact form email delivery- **JavaScript** - Vanilla JS for interactivity (no frameworks)
 
-- HTML5
+- **FormSubmit** - Contact form email delivery
 
-## 📁 Project Structure- CSS3 (Modern, responsive design)
-
-- Vanilla JavaScript (ES6+)
-
-```
-
-portfolio/### Backend
-
-├── index.html           # Main HTML file- PHP (Procedural, secure)
-
-├── assets/- MySQL
-
-│   ├── css/
-
-│   │   └── sections/    # Modular CSS files### Environment
-
-│   ├── js/- macOS
-
-│   │   └── script.js    # JavaScript functionality- XAMPP
-
-│   ├── images/          # Images and graphics- VS Code
-
-│   └── cv/              # Resume/CV files
-
-└── README.md            # Project documentation## 📁 Project Structure
-
-```
-
-```
-
-## 🎨 Features Overview/portfolio
-
-├── /assets
-
-### Home Section│   ├── /css
-
-- Eye-catching welcome message with robotic font│   │   └── style.css          # Main stylesheet
-
-- Profile display│   ├── /js
-
-- Quick action buttons (Download CV, Contact Me)│   │   └── script.js          # JavaScript functionality
-
-│   ├── /images               # Image assets
-
-### Projects Section│   └── /cv
+## 📁 Project Structure
 
 - Hover effects on project cards│       └── Abed_Hossain_CV.pdf  # Resume PDF
 
-- Tech stack tags├── /includes
+```
 
-- Project descriptions and details│   ├── header.php            # Header with navigation
+portfolio/- Tech stack tags├── /includes
 
-│   ├── footer.php            # Footer section
+├── index.html              # Main HTML page
 
-### Contact Section│   └── db.php                # Database connection
+├── README.md               # Documentation- Project descriptions and details│   ├── header.php            # Header with navigation
 
-- Beautiful gradient background├── /pages
+├── .gitignore             # Git ignore file
 
-- Functional contact form using FormSubmit│   └── contact.php           # Contact form handler
+└── assets/│   ├── footer.php            # Footer section
 
-- Direct email integration├── index.php                 # Main landing page
+    ├── css/
 
-- Social media links├── database.sql              # Database setup script
+    │   └── sections/      # Modular CSS files### Contact Section│   └── db.php                # Database connection
 
-└── README.md                 # Project documentation
+    │       ├── base.css
 
-## 📧 Contact```
+    │       ├── navigation.css- Beautiful gradient background├── /pages
+
+    │       ├── home.css
+
+    │       ├── about.css- Functional contact form using FormSubmit│   └── contact.php           # Contact form handler
+
+    │       ├── skills.css
+
+    │       ├── projects.css- Direct email integration├── index.php                 # Main landing page
+
+    │       ├── resume.css
+
+    │       ├── contact.css- Social media links├── database.sql              # Database setup script
+
+    │       ├── footer.css
+
+    │       ├── buttons.css└── README.md                 # Project documentation
+
+    │       └── animations.css
+
+    ├── js/## 📧 Contact```
+
+    │   └── script.js       # JavaScript functionality
+
+    ├── images/
+
+    │   └── profile.jpg     # Profile image
+
+    └── cv/- **Email:** abedhossain494@gmail.com## 🔧 Installation & Setup
+
+        └── Abed_Hossain_CV.pdf
+
+```- **LinkedIn:** [Abed Hossain](https://www.linkedin.com/in/abed-hossain-5875202b6/)
 
 
 
-- **Email:** abedhossain494@gmail.com## 🔧 Installation & Setup
-
-- **LinkedIn:** [Abed Hossain](https://www.linkedin.com/in/abed-hossain-5875202b6/)
-
-- **GitHub:** [Abed-Hossain01](https://github.com/Abed-Hossain01)### Prerequisites
-
-- XAMPP installed on macOS
-
-## 📝 License- Web browser (Safari, Chrome, Firefox, etc.)
+## 🎨 Sections Overview- **GitHub:** [Abed-Hossain01](https://github.com/Abed-Hossain01)### Prerequisites
 
 
 
-This project is open source and available under the [MIT License](LICENSE).### Step 1: Clone or Copy Files
+### Home- XAMPP installed on macOS
 
-Place the portfolio folder in your XAMPP htdocs directory:
+- Welcome message with animated text
 
-## 🙏 Acknowledgments```
+- Profile image## 📝 License- Web browser (Safari, Chrome, Firefox, etc.)
 
-/Applications/XAMPP/xamppfiles/htdocs/portfolio
+- Call-to-action buttons (Download CV, Contact Me)
 
-- Design inspiration from modern portfolio websites```
+
+
+### About
+
+- Personal introductionThis project is open source and available under the [MIT License](LICENSE).### Step 1: Clone or Copy Files
+
+- Background and interests
+
+- Education detailsPlace the portfolio folder in your XAMPP htdocs directory:
+
+
+
+### Skills## 🙏 Acknowledgments```
+
+- **Programming Languages**: C, C++, Java, Python, Dart
+
+- **Web Technologies**: HTML, CSS, JavaScript, PHP, MySQL/Applications/XAMPP/xamppfiles/htdocs/portfolio
+
+- **Frameworks**: Flutter, Laravel
+
+- **Tools**: Git, GitHub, VS Code- Design inspiration from modern portfolio websites```
+
+- Animated progress bars showing proficiency levels
 
 - Icons and emojis for visual enhancement
 
-- FormSubmit.co for contact form handling### Step 2: Start XAMPP Services
+### Projects
 
-1. Open XAMPP Control Panel
+- Interactive project cards with hover effects- FormSubmit.co for contact form handling### Step 2: Start XAMPP Services
+
+- Technology stack tags
+
+- Project descriptions1. Open XAMPP Control Panel
+
+- Links to live demos and source code
 
 ---2. Start Apache server
 
-3. Start MySQL database
+### Resume
+
+- Downloadable CV in PDF format3. Start MySQL database
+
+- Quick access button
 
 **Built with ❤️ by Abed Hossain**
 
-### Step 3: Create Database
-1. Open phpMyAdmin: `http://localhost/phpmyadmin`
-2. Click on "SQL" tab
-3. Copy and paste the contents of `database.sql`
+### Contact
+
+- Functional contact form### Step 3: Create Database
+
+- Email integration via FormSubmit1. Open phpMyAdmin: `http://localhost/phpmyadmin`
+
+- Social media links (LinkedIn, GitHub)2. Click on "SQL" tab
+
+- Direct email: abedhossain494@gmail.com3. Copy and paste the contents of `database.sql`
+
 4. Click "Go" to execute
 
+## 🚀 Local Setup
+
 Alternatively, use the terminal:
-```bash
-cd /Applications/XAMPP/xamppfiles/htdocs/portfolio
-mysql -u root -p < database.sql
+
+### Prerequisites```bash
+
+- A web browser (Chrome, Firefox, Safari, etc.)cd /Applications/XAMPP/xamppfiles/htdocs/portfolio
+
+- Git installed on your machinemysql -u root -p < database.sql
+
 ```
+
+### Installation
 
 ### Step 4: Configure Database Connection
-The database configuration is already set in `includes/db.php`:
-- Host: `localhost`
-- Username: `root`
-- Password: `` (empty by default in XAMPP)
+
+1. **Clone the repository**The database configuration is already set in `includes/db.php`:
+
+   ```bash- Host: `localhost`
+
+   git clone https://github.com/Abed-Hossain01/Portfolio_Website.git- Username: `root`
+
+   ```- Password: `` (empty by default in XAMPP)
+
 - Database: `portfolio_db`
 
-### Step 5: Add Your Resume
-Place your CV PDF file at:
-```
+2. **Navigate to the project**
+
+   ```bash### Step 5: Add Your Resume
+
+   cd Portfolio_WebsitePlace your CV PDF file at:
+
+   ``````
+
 /assets/cv/Abed_Hossain_CV.pdf
-```
 
-### Step 6: Access the Website
-Open your browser and navigate to:
-```
-http://localhost/portfolio
-```
+3. **Open the website**```
 
-## 📋 Database Schema
+   - Simply open `index.html` in your browser
 
-### Messages Table
+   - Or use a local server:### Step 6: Access the Website
+
+     ```bashOpen your browser and navigate to:
+
+     # Python 3```
+
+     python3 -m http.server 8000http://localhost/portfolio
+
+     ```
+
+     # Then visit: http://localhost:8000
+
+     ```## 📋 Database Schema
+
+
+
+## 🎨 Customization### Messages Table
+
 | Column | Type | Description |
-|--------|------|-------------|
-| id | INT | Auto-increment primary key |
-| name | VARCHAR(100) | Sender's name |
-| email | VARCHAR(100) | Sender's email |
+
+### Updating Content|--------|------|-------------|
+
+1. Edit `index.html` to modify text content| id | INT | Auto-increment primary key |
+
+2. Replace `assets/images/profile.jpg` with your photo| name | VARCHAR(100) | Sender's name |
+
+3. Update `assets/cv/Abed_Hossain_CV.pdf` with your resume| email | VARCHAR(100) | Sender's email |
+
 | message | TEXT | Message content |
-| created_at | TIMESTAMP | Submission timestamp |
 
-## 🎨 Customization
+### Changing Colors| created_at | TIMESTAMP | Submission timestamp |
 
-### Colors
-Edit the CSS variables in `assets/css/style.css`:
+Modify the CSS variables in `assets/css/sections/base.css`:
+
+- Primary colors (blues)## 🎨 Customization
+
+- Background colors
+
+- Text colors### Colors
+
+- Accent colorsEdit the CSS variables in `assets/css/style.css`:
+
 ```css
-:root {
-    --primary-color: #2563eb;
-    --secondary-color: #1e40af;
-    --accent-color: #3b82f6;
-    /* ... more colors */
-}
-```
 
-### Content
+### Adding Projects:root {
+
+Add new project cards in the Projects section of `index.html` following the existing structure.    --primary-color: #2563eb;
+
+    --secondary-color: #1e40af;
+
+## 📱 Responsive Design    --accent-color: #3b82f6;
+
+    /* ... more colors */
+
+The website is fully responsive with breakpoints:}
+
+- **Desktop**: > 768px - Full navigation, multi-column layouts```
+
+- **Tablet**: 481px - 768px - Optimized layouts
+
+- **Mobile**: ≤ 480px - Single column, hamburger menu### Content
+
 - Edit sections in `index.php`
-- Modify navigation links in `includes/header.php`
+
+## 🌟 Key Features- Modify navigation links in `includes/header.php`
+
 - Update footer information in `includes/footer.php`
 
-### Skills
+### Smooth Scrolling
+
+Click navigation links for smooth scrolling to sections### Skills
+
 Adjust skill percentages in the skills section of `index.php`:
-```html
-<div class="skill-progress" style="width: 85%;"></div>
+
+### Active Link Highlighting```html
+
+The navbar automatically highlights the current section while scrolling<div class="skill-progress" style="width: 85%;"></div>
+
 ```
 
-## 🔒 Security Features
+### Form Validation
 
-- Prepared statements for SQL queries (prevents SQL injection)
-- Input sanitization and validation
+- Client-side validation with JavaScript## 🔒 Security Features
+
+- Email format validation
+
+- Required field checks- Prepared statements for SQL queries (prevents SQL injection)
+
+- Real-time error messages- Input sanitization and validation
+
 - XSS protection through PHP's built-in functions
-- Email validation on both client and server side
-- CSRF protection ready (can be enhanced)
 
-## 📱 Responsive Breakpoints
+### Mobile Menu- Email validation on both client and server side
 
-- **Desktop**: > 768px
-- **Tablet**: 481px - 768px
-- **Mobile**: ≤ 480px
+Responsive hamburger menu for mobile devices with smooth animations- CSRF protection ready (can be enhanced)
 
-## 🌟 Key Features Explained
 
-### Smooth Scrolling
+
+## 📧 Contact## 📱 Responsive Breakpoints
+
+
+
+- **Email**: abedhossain494@gmail.com- **Desktop**: > 768px
+
+- **LinkedIn**: [Abed Hossain](https://www.linkedin.com/in/abed-hossain-5875202b6/)- **Tablet**: 481px - 768px
+
+- **GitHub**: [Abed-Hossain01](https://github.com/Abed-Hossain01)- **Mobile**: ≤ 480px
+
+
+
+## 📄 License## 🌟 Key Features Explained
+
+
+
+This project is open source and available for personal use. Feel free to fork and customize for your own portfolio.### Smooth Scrolling
+
 JavaScript handles smooth scrolling to sections when clicking navigation links.
 
-### Active Link Highlighting
-The navbar automatically highlights the current section while scrolling.
+## 👨‍💻 Developer
 
-### Form Validation
-- Client-side validation with JavaScript
-- Server-side validation with PHP
-- Real-time feedback for form fields
+### Active Link Highlighting
+
+**Abed Hossain**The navbar automatically highlights the current section while scrolling.
+
+- Age: 22
+
+- University: Southeast University, Bangladesh### Form Validation
+
+- Department: Computer Science and Engineering- Client-side validation with JavaScript
+
+- Location: Tejgaon, Dhaka- Server-side validation with PHP
+
+- Hometown: Lakshmipur, Chittagong- Real-time feedback for form fields
+
+- Specialization: Flutter App Development | Full-Stack Web Development
 
 ### Mobile Menu
-Responsive hamburger menu for mobile devices with smooth animations.
 
-## 🐛 Troubleshooting
+---Responsive hamburger menu for mobile devices with smooth animations.
 
-### Database Connection Error
+
+
+Built with care using HTML5, CSS3, and JavaScript## 🐛 Troubleshooting
+
+
+
+*Last Updated: January 2026*### Database Connection Error
+
 - Ensure MySQL is running in XAMPP
 - Check database credentials in `includes/db.php`
 - Verify database exists: `portfolio_db`
