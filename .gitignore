@@ -1,0 +1,303 @@
+# Portfolio Website - GitHub Pages Ready# Portfolio Website - Git Ignore File
+
+
+
+# ========================================# ========================================
+
+# OPERATING SYSTEM FILES# OPERATING SYSTEM FILES
+
+# ========================================# ========================================
+
+
+
+# macOS# macOS
+
+.DS_Store.DS_Store
+
+.AppleDouble.AppleDouble
+
+.LSOverride.LSOverride
+
+IconIcon
+
+._*._*
+
+.DocumentRevisions-V100.DocumentRevisions-V100
+
+.fseventsd.fseventsd
+
+.Spotlight-V100.Spotlight-V100
+
+.TemporaryItems.TemporaryItems
+
+.Trashes.Trashes
+
+.VolumeIcon.icns.VolumeIcon.icns
+
+.com.apple.timemachine.donotpresent.com.apple.timemachine.donotpresent
+
+
+
+# Windows# Windows
+
+Thumbs.dbThumbs.db
+
+ehthumbs.dbehthumbs.db
+
+Desktop.iniDesktop.ini
+
+$RECYCLE.BIN/$RECYCLE.BIN/
+
+
+
+# Linux# Linux
+
+*~*~
+
+
+
+# ========================================# ========================================
+
+# IDE & EDITOR FILES# IDE & EDITOR FILES
+
+# ========================================# ========================================
+
+
+
+# VS Code# VS Code
+
+.vscode/.vscode/
+
+*.code-workspace*.code-workspace
+
+
+
+# JetBrains IDEs# JetBrains IDEs
+
+.idea/.idea/
+
+*.iml*.iml
+
+*.iws*.iws
+
+
+
+# Sublime Text# Sublime Text
+
+*.sublime-project*.sublime-project
+
+*.sublime-workspace*.sublime-workspace
+
+
+
+# ========================================# Atom
+
+# DEPENDENCIES & BUILD.atom/
+
+# ========================================
+
+# ========================================
+
+# Node modules (if you add build tools later)# PHP & XAMPP
+
+node_modules/# ========================================
+
+package-lock.json
+
+yarn.lock# PHP
+
+*.log
+
+# ========================================*.cache
+
+# TEMPORARY FILES
+
+# ========================================# XAMPP specific
+
+xampp/
+
+# Logs
+
+logs/# ========================================
+
+*.log# SENSITIVE INFORMATION
+
+error_log# ========================================
+
+access_log
+
+# Database configuration (if using different credentials)
+
+# Cache# Uncomment if you modify db.php with real credentials
+
+cache/# includes/db.php
+
+*.cache
+
+# Backup files
+
+# Temporary files*.backup
+
+tmp/*.bak
+
+temp/*.sql.backup
+
+*.tmpbackup/
+
+backups/
+
+# Backup files
+
+*.backup# Environment files
+
+*.bak.env
+
+backup/.env.local
+
+backups/.env.production
+
+
+
+# ========================================# ========================================
+
+# DEVELOPMENT FILES# TEMPORARY FILES
+
+# ========================================# ========================================
+
+
+
+# Test files# Logs
+
+tests/logs/
+
+test/*.log
+
+testing/error_log
+
+access_log
+
+# Development
+
+dev/# Cache
+
+development/cache/
+
+*.cache
+
+# Debug files
+
+debug.log# Temporary files
+
+debug/tmp/
+
+temp/
+
+# ========================================*.tmp
+
+# MISCELLANEOUS
+
+# ========================================# ========================================
+
+# USER UPLOADED CONTENT
+
+# Compressed files# ========================================
+
+*.zip
+
+*.rar# Actual CV file (commit the placeholder instead)
+
+*.7z# Uncomment if you don't want to commit your actual CV
+
+*.tar# assets/cv/*.pdf
+
+*.gz
+
+# User uploaded images (if you add upload functionality later)
+
+# Archivesuploads/
+
+archives/user-uploads/
+
+old/
+
+# ========================================
+
+# Environment files# DEPENDENCIES & BUILD FILES
+
+.env# ========================================
+
+.env.local
+
+.env.production# Node modules (if you add build tools later)
+
+node_modules/
+package-lock.json
+yarn.lock
+
+# Composer (if you add PHP dependencies)
+vendor/
+composer.lock
+
+# ========================================
+# VERSION CONTROL
+# ========================================
+
+# Git
+.git/
+.gitattributes
+
+# SVN
+.svn/
+
+# ========================================
+# DOCUMENTATION (Optional)
+# ========================================
+
+# Uncomment if you don't want to commit these
+# *.pdf
+# *.docx
+# docs/
+
+# ========================================
+# TESTING & DEVELOPMENT
+# ========================================
+
+# Test files
+tests/
+test.php
+testing/
+
+# Development files
+dev/
+development/
+
+# Debug files
+debug.log
+debug/
+
+# ========================================
+# MISCELLANEOUS
+# ========================================
+
+# Compressed files
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+
+# Archives
+archives/
+old/
+
+# Screenshots
+screenshots/
+*.png
+*.jpg
+*.jpeg
+*.gif
+
+# Keep important images
+!assets/images/.gitkeep
+!assets/images/logo.png
+!assets/images/favicon.ico

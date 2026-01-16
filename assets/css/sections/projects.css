@@ -1,0 +1,126 @@
+/**
+ * Projects Section Styles
+ * Author: Abed Hossain
+ */
+
+/* ========================================
+   PROJECTS SECTION
+   ======================================== */
+
+.projects-section {
+    background-color: var(--bg-white);
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: var(--spacing-md);
+}
+
+.project-card {
+    background-color: var(--bg-white);
+    padding: var(--spacing-md);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-md);
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    border: 1px solid var(--border-color);
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.project-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(37, 99, 235, 0.1), transparent);
+    transition: left 0.6s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-12px) scale(1.02);
+    box-shadow: 0 20px 40px -10px rgba(37, 99, 235, 0.3);
+    border-color: var(--primary-color);
+}
+
+.project-card:hover::before {
+    left: 100%;
+}
+
+.project-icon {
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(135deg, var(--primary-color) 0%, var(--accent-color) 100%);
+    border-radius: var(--radius-md);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    margin-bottom: var(--spacing-sm);
+    transition: all 0.3s ease;
+}
+
+.project-card:hover .project-icon {
+    transform: rotateY(360deg) scale(1.1);
+    box-shadow: 0 8px 16px rgba(37, 99, 235, 0.4);
+}
+
+.project-card h3 {
+    font-size: 1.25rem;
+    color: var(--text-dark);
+    margin-bottom: var(--spacing-sm);
+    transition: color 0.3s ease;
+}
+
+.project-card:hover h3 {
+    color: var(--primary-color);
+}
+
+.project-card p {
+    color: var(--text-light);
+    margin-bottom: var(--spacing-sm);
+    line-height: 1.7;
+    transition: color 0.3s ease;
+}
+
+.project-card:hover p {
+    color: var(--text-dark);
+}
+
+.project-tech {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.tech-tag {
+    display: inline-block;
+    padding: 0.25rem 0.75rem;
+    background-color: rgba(37, 99, 235, 0.1);
+    color: var(--primary-color);
+    border-radius: var(--radius-sm);
+    font-size: 0.875rem;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.project-card:hover .tech-tag {
+    background-color: var(--primary-color);
+    color: var(--bg-white);
+    transform: translateY(-2px);
+}
+
+.tech-tag:hover {
+    transform: scale(1.1) translateY(-3px) !important;
+    box-shadow: 0 4px 8px rgba(37, 99, 235, 0.3);
+}
+
+/* Responsive Projects Section */
+@media (max-width: 480px) {
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
+}

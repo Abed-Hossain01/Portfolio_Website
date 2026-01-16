@@ -1,0 +1,91 @@
+/**
+ * About Section Styles
+ * Author: Abed Hossain
+ */
+
+/* ========================================
+   ABOUT SECTION
+   ======================================== */
+
+.about-section {
+    background-color: var(--bg-white);
+}
+
+.about-content {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: var(--spacing-lg);
+}
+
+.about-text h3 {
+    font-size: 1.5rem;
+    color: var(--text-dark);
+    margin-top: var(--spacing-md);
+    margin-bottom: var(--spacing-sm);
+}
+
+.about-text h3:first-child {
+    margin-top: 0;
+}
+
+.about-text p {
+    color: var(--text-light);
+    margin-bottom: var(--spacing-sm);
+    line-height: 1.8;
+}
+
+.languages-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.languages-list li {
+    color: var(--text-light);
+    padding: 0.5rem 0;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.languages-list li:last-child {
+    border-bottom: none;
+}
+
+.interests p {
+    margin-bottom: var(--spacing-sm);
+}
+
+.about-info-cards {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-sm);
+}
+
+.info-card {
+    background-color: var(--bg-light);
+    padding: var(--spacing-md);
+    border-radius: var(--radius-md);
+    box-shadow: var(--shadow-sm);
+    transition: all 0.3s ease;
+}
+
+.info-card:hover {
+    box-shadow: var(--shadow-md);
+    transform: translateY(-4px);
+}
+
+.info-card h4 {
+    font-size: 1.25rem;
+    color: var(--primary-color);
+    margin-bottom: var(--spacing-xs);
+}
+
+.info-card p {
+    color: var(--text-light);
+    margin: 0.25rem 0;
+}
+
+/* Responsive About Section */
+@media (max-width: 768px) {
+    .about-content {
+        grid-template-columns: 1fr;
+    }
+}

@@ -1,0 +1,30 @@
+/**
+ * Resume Section Styles
+ * Author: Abed Hossain
+ */
+
+/* ========================================
+   RESUME SECTION
+   ======================================== */
+
+.resume-section {
+    background-color: var(--bg-light);
+}
+
+.resume-content {
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.resume-text h3 {
+    font-size: 1.75rem;
+    color: var(--text-dark);
+    margin-bottom: var(--spacing-sm);
+}
+
+.resume-text p {
+    color: var(--text-light);
+    margin-bottom: var(--spacing-lg);
+    font-size: 1.125rem;
+}

@@ -1,0 +1,60 @@
+/**
+ * Skills Section Styles
+ * Author: Abed Hossain
+ */
+
+/* ========================================
+   SKILLS SECTION
+   ======================================== */
+
+.skills-section {
+    background-color: var(--bg-light);
+}
+
+.skills-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: var(--spacing-lg);
+}
+
+.skill-category h3 {
+    font-size: 1.5rem;
+    color: var(--text-dark);
+    margin-bottom: var(--spacing-md);
+}
+
+.skill-item {
+    margin-bottom: var(--spacing-md);
+}
+
+.skill-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: var(--spacing-xs);
+    font-weight: 600;
+    color: var(--text-dark);
+}
+
+.skill-bar {
+    width: 100%;
+    height: 12px;
+    background-color: var(--bg-white);
+    border-radius: var(--radius-sm);
+    overflow: hidden;
+    box-shadow: var(--shadow-sm);
+}
+
+.skill-progress {
+    height: 100%;
+    background: linear-gradient(90deg, var(--primary-color) 0%, var(--accent-color) 100%);
+    border-radius: var(--radius-sm);
+    transition: width 1s ease;
+    animation: progressAnimation 1.5s ease-in-out;
+}
+
+/* Responsive Skills Section */
+@media (max-width: 480px) {
+    .skills-content {
+        grid-template-columns: 1fr;
+    }
+}
