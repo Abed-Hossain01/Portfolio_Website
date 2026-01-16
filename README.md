@@ -1,58 +1,113 @@
-# Abed Hossain - Portfolio Website# Abed Hossain - Portfolio Website
+# Abed Hossain - Portfolio Website# Abed Hossain - Portfolio Website# Abed Hossain - Portfolio Website
 
 
 
-A modern, responsive personal portfolio website showcasing my skills, projects, and contact information.A modern, responsive personal portfolio website showcasing my skills, projects, and contact information.
+A modern, responsive personal portfolio website built with HTML, CSS, and JavaScript.
 
 
 
-## 🌐 Live Demo## 🌐 Live Demo
+🌐 **Live Demo:** [https://abed-hossain01.github.io/Portfolio_Website/](https://abed-hossain01.github.io/Portfolio_Website/)A modern, responsive personal portfolio website showcasing my skills, projects, and contact information.A modern, responsive personal portfolio website showcasing my skills, projects, and contact information.
 
 
 
-**Visit:** [https://abed-hossain01.github.io/Portfolio_Website/](https://abed-hossain01.github.io/Portfolio_Website/)**Visit:** [https://abed-hossain01.github.io/Portfolio_Website/](https://abed-hossain01.github.io/Portfolio_Website/)
+## ✨ Features
 
 
+
+- Fully responsive design for all devices## 🌐 Live Demo## 🌐 Live Demo
+
+- Smooth scrolling navigation
+
+- Interactive project cards with hover effects
+
+- Animated skill progress bars
+
+- Contact form with email integration**Visit:** [https://abed-hossain01.github.io/Portfolio_Website/](https://abed-hossain01.github.io/Portfolio_Website/)**Visit:** [https://abed-hossain01.github.io/Portfolio_Website/](https://abed-hossain01.github.io/Portfolio_Website/)
+
+- Downloadable resume
+
+
+
+## 🛠️ Tech Stack
 
 ## 👤 About Me## 👤 About Me
 
+- HTML5
+
+- CSS3 (Flexbox & Grid)
+
+- Vanilla JavaScript
+
+- FormSubmit for contact formI'm **Abed Hossain**, a 22-year-old Computer Science and Engineering student at Southeast University, Bangladesh. This portfolio showcases my skills, projects, and provides a way to connect with me.I'm **Abed Hossain**, a 22-year-old Computer Science and Engineering student at Southeast University, Bangladesh. This portfolio showcases my skills, projects, and provides a way to connect with me.
 
 
-I'm **Abed Hossain**, a 22-year-old Computer Science and Engineering student at Southeast University, Bangladesh. This portfolio showcases my skills, projects, and provides a way to connect with me.I'm **Abed Hossain**, a 22-year-old Computer Science and Engineering student at Southeast University, Bangladesh. This portfolio showcases my skills, projects, and provides a way to connect with me.
+
+## 📁 Structure
 
 
 
-## ✨ Features
+```## ✨ Features
 
-## ✨ Features
+portfolio/
 
-- **Responsive Design** - Works perfectly on all devices (desktop, tablet, mobile)
+├── index.html## ✨ Features
 
-- **Smooth Navigation** - Sticky navbar with smooth scrolling and active section highlighting- **Responsive Design** - Works perfectly on all devices (desktop, tablet, mobile)
+├── assets/
 
-- **Interactive Sections**:- **Smooth Navigation** - Sticky navbar with smooth scrolling and active section highlighting
+│   ├── css/sections/- **Responsive Design** - Works perfectly on all devices (desktop, tablet, mobile)
+
+│   ├── js/script.js
+
+│   ├── images/- **Smooth Navigation** - Sticky navbar with smooth scrolling and active section highlighting- **Responsive Design** - Works perfectly on all devices (desktop, tablet, mobile)
+
+│   └── cv/
+
+└── README.md- **Interactive Sections**:- **Smooth Navigation** - Sticky navbar with smooth scrolling and active section highlighting
+
+```
 
   - Home with introduction and call-to-action buttons- **Interactive Sections**:
 
+## 🚀 Local Setup
+
   - About section with personal background  - Home with introduction and call-to-action buttons
 
-  - Skills showcase with animated progress bars  - About section with personal background
+```bash
+
+# Clone the repository  - Skills showcase with animated progress bars  - About section with personal background
+
+git clone https://github.com/Abed-Hossain01/Portfolio_Website.git
 
   - Project portfolio with detailed cards and hover effects  - Skills showcase with animated progress bars
 
-  - Resume download section  - Project portfolio with detailed cards and hover effects
+# Open index.html in your browser
 
-  - Contact form with email integration  - Resume download section
+cd Portfolio_Website  - Resume download section  - Project portfolio with detailed cards and hover effects
 
-- **Modern UI** - Clean design with smooth animations and transitions  - Contact form with email integration
+open index.html
 
-- **Fast Loading** - Optimized static files for quick page loads- **Modern UI** - Clean design with smooth animations and transitions
+```  - Contact form with email integration  - Resume download section
 
-- **Fast Loading** - Optimized static files for quick page loads
 
-## 🛠️ Tech Stack
 
-## 🛠️ Tech Stack
+## 📧 Contact- **Modern UI** - Clean design with smooth animations and transitions  - Contact form with email integration
+
+
+
+- Email: abedhossain494@gmail.com- **Fast Loading** - Optimized static files for quick page loads- **Modern UI** - Clean design with smooth animations and transitions
+
+- LinkedIn: [Abed Hossain](https://www.linkedin.com/in/abed-hossain-5875202b6/)
+
+- GitHub: [Abed-Hossain01](https://github.com/Abed-Hossain01)- **Fast Loading** - Optimized static files for quick page loads
+
+
+
+---## 🛠️ Tech Stack
+
+
+
+**Abed Hossain** | CSE Student | Full-Stack Developer | Southeast University, Bangladesh## 🛠️ Tech Stack
+
 
 - **HTML5** - Semantic markup
 
