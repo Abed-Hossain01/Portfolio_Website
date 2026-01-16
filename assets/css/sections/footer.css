@@ -8,10 +8,11 @@
    ======================================== */
 
 .footer {
-    background-color: var(--text-dark);
-    color: var(--bg-white);
+    background-color: #0a0a0a;
+    color: var(--text-light);
     padding: var(--spacing-md) 0;
-    margin-top: var(--spacing-xl);
+    margin-top: 0;
+    border-top: 1px solid var(--border-color);
 }
 
 .footer-content {

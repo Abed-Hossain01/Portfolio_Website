@@ -8,7 +8,7 @@
    ======================================== */
 
 .contact-section {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
     position: relative;
     overflow: hidden;
 }
@@ -36,12 +36,11 @@
 }
 
 .contact-section .section-title {
-    color: var(--bg-white);
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    color: var(--text-dark);
 }
 
 .contact-section .section-title::after {
-    background-color: var(--bg-white);
+    background-color: var(--primary-color);
 }
 
 .contact-content {

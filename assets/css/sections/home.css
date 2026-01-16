@@ -11,43 +11,43 @@
     min-height: 100vh;
     display: flex;
     align-items: center;
-    padding-top: 80px;
-    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    justify-content: center;
+    padding: 100px 0;
+    background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
 }
 
-/* Welcome Heading with Robotic Font */
+/* Welcome Heading - Large Intro Space */
 .welcome-heading {
-    font-size: 2.5rem;
-    font-weight: 900;
+    font-size: 3rem;
+    font-weight: 600;
     text-align: center;
-    letter-spacing: 0.3rem;
-    color: var(--primary-color);
-    margin: 0 auto var(--spacing-lg);
+    letter-spacing: 0.05rem;
+    color: var(--text-dark);
+    margin: 0 auto 2rem;
     padding: 0 var(--spacing-sm);
     max-width: 100%;
-    text-transform: uppercase;
-    font-family: 'Courier New', Courier, monospace;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
     animation: fadeInDown 1s ease;
-    line-height: 1.2;
+    line-height: 1.3;
     word-wrap: break-word;
 }
 
 .home-content {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: var(--spacing-xl);
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    max-width: 1200px;
+    text-align: center;
+    max-width: 900px;
     margin: 0 auto;
 }
 
 .home-text {
-    animation: fadeInLeft 1s ease;
+    animation: fadeInUp 1s ease;
+    width: 100%;
 }
 
 .greeting {
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: 700;
     margin-bottom: var(--spacing-sm);
     color: var(--text-dark);
@@ -58,10 +58,11 @@
 }
 
 .subtitle {
-    font-size: 1.5rem;
-    font-weight: 500;
+    font-size: 1.3rem;
+    font-weight: 400;
     color: var(--text-light);
     margin-bottom: var(--spacing-md);
+    line-height: 1.6;
 }
 
 .intro-text {
@@ -69,66 +70,22 @@
     color: var(--text-light);
     margin-bottom: var(--spacing-lg);
     line-height: 1.8;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .home-buttons {
     display: flex;
     gap: var(--spacing-sm);
     flex-wrap: wrap;
-}
-
-/* Home Image Section */
-.home-image {
-    display: flex;
     justify-content: center;
-    align-items: center;
-    animation: fadeInRight 1s ease;
 }
 
-.profile-wrapper {
-    width: 400px;
-    height: 400px;
-    min-width: 350px;
-    min-height: 350px;
-    border-radius: 50%;
-    background-image: url('../../images/profile.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    box-shadow: var(--shadow-xl);
-    border: 6px solid var(--bg-white);
-    transition: all 0.3s ease;
-    flex-shrink: 0;
-}
-
-.profile-wrapper:hover {
-    transform: scale(1.05);
-    box-shadow: 0 25px 30px -10px rgba(0, 0, 0, 0.2);
-}
 
 /* Responsive Home Section */
 @media (max-width: 768px) {
     .welcome-heading {
-        font-size: 1.75rem;
-        letter-spacing: 0.2rem;
-    }
-    
-    .home-content {
-        grid-template-columns: 1fr;
-        gap: var(--spacing-lg);
-        text-align: center;
-    }
-    
-    .profile-wrapper {
-        width: 250px;
-        height: 250px;
-    }
-    
-    .home-buttons {
-        justify-content: center;
-    }
-    
-    .greeting {
         font-size: 2.5rem;
     }
     
@@ -139,20 +96,25 @@
 
 @media (max-width: 480px) {
     .welcome-heading {
-        font-size: 1.25rem;
-        letter-spacing: 0.15rem;
-    }
-    
-    .profile-wrapper {
-        width: 200px;
-        height: 200px;
-    }
-    
-    .greeting {
         font-size: 2rem;
+        line-height: 1.2;
     }
     
     .subtitle {
-        font-size: 1.125rem;
+        font-size: 1.1rem;
+    }
+    
+    .intro-text {
+        font-size: 1rem;
+    }
+    
+    .home-buttons {
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .btn {
+        width: 100%;
     }
 }
+

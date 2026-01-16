@@ -14,17 +14,19 @@
 }
 
 :root {
-    /* Color Palette */
-    --primary-color: #2563eb;
-    --secondary-color: #1e40af;
-    --accent-color: #3b82f6;
-    --text-dark: #1f2937;
-    --text-light: #6b7280;
-    --bg-light: #f9fafb;
+    /* Color Palette - Dark Theme */
+    --primary-color: #64b5f6;
+    --secondary-color: #42a5f5;
+    --accent-color: #90caf9;
+    --text-dark: #e0e0e0;
+    --text-light: #b0b0b0;
+    --bg-dark: #121212;
+    --bg-darker: #1e1e1e;
+    --bg-light: #2a2a2a;
     --bg-white: #ffffff;
-    --border-color: #e5e7eb;
-    --success-color: #10b981;
-    --error-color: #ef4444;
+    --border-color: #333;
+    --success-color: #66bb6a;
+    --error-color: #ef5350;
     
     /* Typography */
     --font-primary: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
@@ -56,7 +58,7 @@ body {
     font-family: var(--font-primary);
     color: var(--text-dark);
     line-height: 1.6;
-    background-color: var(--bg-white);
+    background-color: var(--bg-dark);
 }
 
 /* Container */
