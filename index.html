@@ -371,7 +371,11 @@
                 
                 <div class="contact-form-wrapper">
                     <div id="alertMessage" style="display: none;"></div>
-                    <form class="contact-form" id="contactForm">
+                    <form action="https://api.web3forms.com/submit" method="POST" class="contact-form" id="contactForm">
+                        
+                        <!-- Web3Forms Access Key -->
+                        <input type="hidden" name="access_key" value="56817ec4-16ab-4626-8698-5de968db8433">
+
                         <div class="form-group">
                             <label for="name">Name</label>
                             <input type="text" id="name" name="name" required placeholder="Your Name">

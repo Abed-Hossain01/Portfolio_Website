@@ -96,36 +96,28 @@ document.addEventListener('DOMContentLoaded', function() {
         contactForm.addEventListener('submit', async function(e) {
             e.preventDefault();
             
-            const name = document.getElementById('name').value.trim();
-            const email = document.getElementById('email').value.trim();
-            const message = document.getElementById('message').value.trim();
-            
-            const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-            
-            if (!name || name.length < 2 || !emailRegex.test(email) || !message || message.length < 10) {
-                showAlert('Please fill all fields correctly', 'error');
-                return;
-            }
-            
             const submitBtn = contactForm.querySelector('.btn-submit');
             submitBtn.textContent = 'Sending...';
             submitBtn.disabled = true;
             
             try {
-                const response = await fetch('https://formsubmit.co/ajax/abedhossain494@gmail.com', {
+                const formData = new FormData(contactForm);
+                
+                const response = await fetch('https://api.web3forms.com/submit', {
                     method: 'POST',
-                    headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
-                    body: JSON.stringify({ name, email, message })
+                    body: formData
                 });
                 
-                if (response.ok) {
-                    showAlert('Message sent successfully!', 'success');
+                const data = await response.json();
+                
+                if (data.success) {
+                    showAlert('Message sent successfully! I will get back to you soon.', 'success');
                     contactForm.reset();
                 } else {
-                    throw new Error('Failed');
+                    throw new Error(data.message || 'Failed to send message');
                 }
             } catch (error) {
-                showAlert('Email me directly at abedhossain494@gmail.com', 'error');
+                showAlert('Something went wrong. Please email me directly at abedhossain494@gmail.com', 'error');
             } finally {
                 submitBtn.textContent = 'Send Message';
                 submitBtn.disabled = false;
